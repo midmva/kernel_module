@@ -1,0 +1,1 @@
+cmd_/home/midv/Projects/kernel_module/netfilter_http.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/midv/Projects/kernel_module/netfilter_http.ko /home/midv/Projects/kernel_module/netfilter_http.o /home/midv/Projects/kernel_module/netfilter_http.mod.o
