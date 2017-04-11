@@ -15,8 +15,6 @@ MODULE_AUTHOR("Miruk Dmitry <midv@tut.by>");
 MODULE_DESCRIPTION("Module for test task");
 MODULE_LICENSE("GPL");
 
-
-
 struct nf_hook_ops bundle;
 
 unsigned int hookFunc(uint hooknum,
